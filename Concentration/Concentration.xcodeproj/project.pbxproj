@@ -13,6 +13,8 @@
 		5E0B5EFC25CC324500810142 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0B5EFA25CC324500810142 /* Main.storyboard */; };
 		5E0B5EFE25CC324800810142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0B5EFD25CC324800810142 /* Assets.xcassets */; };
 		5E0B5F0125CC324800810142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0B5EFF25CC324800810142 /* LaunchScreen.storyboard */; };
+		5E46E01D25D069F900E56F83 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46E01C25D069F900E56F83 /* Concentration.swift */; };
+		5E46E02125D06CC300E56F83 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E46E02025D06CC300E56F83 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5E0B5EFD25CC324800810142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0B5F0025CC324800810142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0B5F0225CC324900810142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E46E01C25D069F900E56F83 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		5E46E02025D06CC300E56F83 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				5E0B5F0925CC383A00810142 /* Supporting files */,
 				5E0B5EF825CC324500810142 /* ViewController.swift */,
+				5E46E01C25D069F900E56F83 /* Concentration.swift */,
+				5E46E02025D06CC300E56F83 /* Card.swift */,
 				5E0B5EFA25CC324500810142 /* Main.storyboard */,
 				5E0B5F0225CC324900810142 /* Info.plist */,
 			);
@@ -147,7 +153,9 @@
 			files = (
 				5E0B5EF925CC324500810142 /* ViewController.swift in Sources */,
 				5E0B5EF525CC324500810142 /* AppDelegate.swift in Sources */,
+				5E46E02125D06CC300E56F83 /* Card.swift in Sources */,
 				5E0B5EF725CC324500810142 /* SceneDelegate.swift in Sources */,
+				5E46E01D25D069F900E56F83 /* Concentration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
